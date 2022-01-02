@@ -1,0 +1,9 @@
+#! /bin/bash
+
+echo "Add two number"
+echo -n "Enter first number"
+read first_number
+echo -n "Enter second number"
+read second_number
+sum=$(($first_number + $second_number))
+echo "SUM OF $first_number and $second_number is: $sum"
